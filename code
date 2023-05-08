@@ -1,0 +1,52 @@
+/**
+ * personagem
+ * indefinido
+ */
+public class personagem {
+String nome;
+String tipo;
+int level;
+protected int ID
+};
+
+public class personagem(init ID){
+this.id = id;
+
+this.name = "indefinido";
+this.tipo = "indefinido";
+this.level = 0;
+};
+
+public void ImprimeDados(){
+    system.out.println("personagem do tipo"+ this.tipo + com id this.id );
+    system.out.println("possui nivel" + this.nivel+ "com id" = this.id);
+    system.out.println("possui nivel" + this.nivel e se chama this.nome);
+}
+class Dragao extends personagem{
+    int peso;
+    int.atividade;
+    boolean ocupado;
+}
+
+public dragao(int ID, String nome){
+    super(id);
+    this.tipo = "dragao";
+    this.name = "name";
+    this.atividade(0);
+    this.ocupado = false;
+}
+
+public void atuar(int codigo){
+    this.ImprimeDados();
+    system.out.println("vai executar uma atividade do tipo" + codigo);
+}
+
+public class Main{
+ public static void main(String[] args) {
+        system.out.println("Atividade De Produção-Codigo Inicial");
+        personagem p = new personagem(1);
+        p.ImprimeDados();
+        Dragao d1 = new Dragao(2, "HADES");
+        d1.atuar(0);
+    }
+}
